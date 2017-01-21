@@ -1,0 +1,128 @@
+html , body {
+	background-color: black;
+
+}
+
+#temperature {
+	position: absolute;
+	left: 10px;
+	top: 50px;
+	margin-top: 5px;
+	color: white;
+	font-size: 120px;
+	font-family: Gotham;
+	font-weight: 100;
+
+}
+
+#todayHi {
+	position: absolute;
+	left: 30px;
+	top: 140px;
+
+	color: white;
+	font-size: 40px;
+	font-family:Gotham;
+	font-weight: 200;
+
+}
+
+#todayLo {
+	position: absolute;
+	left: 180px;
+	top: 140px;
+
+	color: white;
+	font-size: 40px;
+	font-family:Gotham;
+	font-weight: 200;
+
+}
+
+#todaysForecast {
+	position: absolute;
+	left: 10px;
+	top: 200px;
+
+	color: white;
+	font-size: 15px;
+	font-family:Gotham;
+	font-weight: 200;
+
+}
+
+
+
+#tomorrowsForecast {
+	position: absolute;
+	left: 30px;
+	top: 210px;
+
+	color: white;
+	font-size: 25px;
+	font-family:Gotham;
+	font-weight: 200;
+}
+
+#weatherIcon{
+	position: absolute;
+	left: 330px;
+	top: 60px;
+	width: 130px;
+	height: 130px;
+}
+
+#time {
+	position: absolute;
+	right: 60px;
+	top: 55px;
+	margin-top: 5px;
+	color: white;
+	font-size: 90px;
+	font-family:Gotham;
+	font-weight: 100;
+
+}
+#amorpm{
+position: absolute;
+	right: 20px;
+	top: 100px;
+	color: white;
+	font-size: 24px;
+	font-family:Gotham;
+	font-weight: 100;
+}
+
+#name {
+	position: absolute;
+	left: 140px;
+	top:120px;
+
+	color: white;
+	font-size: 50px;
+	font-family:Gotham;
+	font-weight: 200;
+
+}
+
+#news {
+	white-space: nowrap;
+	position: absolute;
+	right: 10px;
+	top: 25px;
+	color: white;
+	font-size: 30px;
+	font-family:Gotham;
+	font-weight: 200;
+
+}
+.marquee {
+	position: absolute;
+	right: 0px;
+	top:25px;
+ 	width: 1400px;
+ 	overflow: hidden;
+  	background: black;
+  	color: black;
+}
+
