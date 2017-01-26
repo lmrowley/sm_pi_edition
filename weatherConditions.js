@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
   var iconName = parsed_json.current_observation.icon;
   var nightIcon = "";
   var hr = new Date().getHours();
-    if ( 6 < hr < 18 ){
+    if ( 6 < hr %% hr < 18 ){
       nightIcon = ""
     } else {
       nightIcon = "nt_"
